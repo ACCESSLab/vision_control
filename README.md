@@ -4,7 +4,7 @@
 - Lane detection:
   - Test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines).
   (https://drive.google.com/file/d/1itWQYB3XyWjjB7FkS3jwFreRLPzb5TV0/view?usp=share_link)
-- Lane keeping:
+- Lane keeping test on AggieAuto platform -Lincoln MKZ hybrid:
   | Test Speed| Video link|
   |------|-----|
   |10 mph  | https://drive.google.com/file/d/1eFe6Igph0WlnYdaqwkBvpYD3Lbf5cTPz/view?usp=share_link|
@@ -12,9 +12,9 @@
   |17 - 19 mph | https://drive.google.com/file/d/1RdBTzxfykjmy-izDYmHEGaoI4tj5N91s/view?usp=share_link|
   |18 mph  | https://drive.google.com/file/d/1LT0UoUgoXXJxODhq8K0dqMcLA2BMTiZX/view?usp=share_link|
   |20 - 22 mph | https://drive.google.com/file/d/1EByMQuYTOXEqKouim4xNQvMEVKfEWg0k/view?usp=share_link|
-
+---
 ### Nighttime driving test data with labels
-  Image and label data [ https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link ]
+  Image and label data.[https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link]
 - Folder structure
 ```
  nighttime_driving_data
@@ -30,8 +30,9 @@
 For each image in the ```images``` folder, there is a corrosponding label in the ```labels``` folder with the same name.
 The labels are created using [labelme](https://github.com/wkentaro/labelme.git) app.
 #### Label content
-The label is for ```left``` and ```right``` lane boudaries as shown below.
+  The label is for ```left``` and ```right``` lane boudaries as shown below.
 
+---
 ### Camera calibration
 Intrinsic calibration matrices are the following. 
 * The images in the dataset are already corrected.
