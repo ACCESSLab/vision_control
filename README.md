@@ -1,20 +1,18 @@
-## Vision based Control for Lane Keeping
+# Vision based Control for Lane Keeping
 
 ### Experimental Results
-- Lane detection:
-  - Test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines).
-  (https://drive.google.com/file/d/1itWQYB3XyWjjB7FkS3jwFreRLPzb5TV0/view?usp=share_link)
+- <a target="_blank" href="https://drive.google.com/file/d/1itWQYB3XyWjjB7FkS3jwFreRLPzb5TV0/view?usp=share_link"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
+<!--   (https://drive.google.com/file/d/1itWQYB3XyWjjB7FkS3jwFreRLPzb5TV0/view?usp=share_link) -->
 - Lane keeping test on AggieAuto platform -Lincoln MKZ hybrid:
-  | Test Speed| Video link|
-  |------|-----|
-  |10 mph  | https://drive.google.com/file/d/1eFe6Igph0WlnYdaqwkBvpYD3Lbf5cTPz/view?usp=share_link|
-  |15 mph  | https://drive.google.com/file/d/15oczESI7VBMf6DfGg6XsCKEIbasLAsMl/view?usp=share_link|
-  |17 - 19 mph | https://drive.google.com/file/d/1RdBTzxfykjmy-izDYmHEGaoI4tj5N91s/view?usp=share_link|
-  |18 mph  | https://drive.google.com/file/d/1LT0UoUgoXXJxODhq8K0dqMcLA2BMTiZX/view?usp=share_link|
-  |20 - 22 mph | https://drive.google.com/file/d/1EByMQuYTOXEqKouim4xNQvMEVKfEWg0k/view?usp=share_link|
----
+  - <a target="_blank" href="https://drive.google.com/file/d/1eFe6Igph0WlnYdaqwkBvpYD3Lbf5cTPz/view?usp=share_link"> 10 mph </a>
+  - <a target="_blank" href="https://drive.google.com/file/d/15oczESI7VBMf6DfGg6XsCKEIbasLAsMl/view?usp=share_link"> 15 mph </a>
+  - <a target="_blank" href="https://drive.google.com/file/d/1RdBTzxfykjmy-izDYmHEGaoI4tj5N91s/view?usp=share_link"> 17-19 mph </a>
+  - <a target="_blank" href="https://drive.google.com/file/d/1LT0UoUgoXXJxODhq8K0dqMcLA2BMTiZX/view?usp=share_link"> 18 mph </a>
+  - <a target="_blank" href="https://drive.google.com/file/d/1EByMQuYTOXEqKouim4xNQvMEVKfEWg0k/view?usp=share_link"> 20-22 mph </a>
+ 
+ ----
 ### Nighttime driving test data with labels
-  Image and label data.[https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link]
+  <a target="_blank" href="https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link">Image and label data.</a>
 - Folder structure
 ```
  nighttime_driving_data
@@ -33,7 +31,7 @@ The labels are created using [labelme](https://github.com/wkentaro/labelme.git) 
   The label is for ```left``` and ```right``` lane boudaries as shown below.
 
 ---
-### Camera calibration
+<!-- ### Camera calibration
 Intrinsic calibration matrices are the following. 
 * The images in the dataset are already corrected.
 ```
@@ -53,3 +51,4 @@ refined_cam_mtx = np.array([[1.75234119e+03, 0.00000000e+00, 7.96353770e+02],
                             [0.00000000e+00, 0.00000000e+00, 1.00000000e+00]
                           ])
 ```
+ -->
