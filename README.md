@@ -1,4 +1,4 @@
-# Vision based Control for Lane Keeping
+# Vision-based Perception and Control for Lane Keeping of Autonomous Vehicles
 
 ### Experimental Results
 - <a target="_blank" href="https://drive.google.com/file/d/1itWQYB3XyWjjB7FkS3jwFreRLPzb5TV0/view?usp=share_link"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
