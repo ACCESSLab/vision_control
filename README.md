@@ -1,5 +1,9 @@
 # Vision-based Perception and Control for Lane Keeping of Autonomous Vehicles
-
+ ----
+# Abstract
+This paper proposes a vision-based control method for autonomous vehicle lane keeping. This approach is intended to provide a reliable alternative solution for localization and path planning related issues in environments where GPS is unavailable or unreliable such as in tunnels and urban areas. The proposed method consists of a robust lane detection algorithm to generate a reference path of the vehicle and a model predictive controller (MPC) for tracking the reference path. The lane detector extracts lane markings from image frames to find ego-lane boundaries from which the lane center is calculated in the vehicle’s coordinate frame. The MPC uses a kinematic vehicle model to generate the lateral and longitudinal control values to smoothly track the reference path. The proposed technique is implemented and tested on a Lincoln MKZ hybrid vehicle equipped with a computing platform with Intel’s quad-core Xeon processors. Experimental results show that the proposed vision-based lane detection method works well on various road segments despite challenging road conditions such as shadows, road texture variations, interference from other road signs, and missing lane boundaries. The multithreaded implementation of lane detection and the MPC allowed us to run the integrated system at the speed of 25 HZ. The integration of lane detection and MPC resulted in smoothly keeping the car in the center of the lane over a curved test track while respecting the physical constraints of the car.
+ 
+----
 ### Experimental Results
 - <a target="_blank" href="https://drive.google.com/file/d/1itWQYB3XyWjjB7FkS3jwFreRLPzb5TV0/view?usp=share_link"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
 <!--   (https://drive.google.com/file/d/1itWQYB3XyWjjB7FkS3jwFreRLPzb5TV0/view?usp=share_link) -->
