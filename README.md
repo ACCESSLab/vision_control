@@ -14,8 +14,9 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
 - <a target="_blank" href="https://drive.google.com/file/d/1ngpegivYYYi-MNU1f1ENg10IcjexBM1c/view?usp=share_link"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
 <!--   (https://drive.google.com/file/d/1itWQYB3XyWjjB7FkS3jwFreRLPzb5TV0/view?usp=share_link) -->
 
-- Path tracking result
+- Path tracking for a 525 meter test road where the maximum lateral error is 0.2m.
  <img src="/images/path_tracking.png" width="600" /> 
+ <img src="/images/pos_error.png" width="600" /> 
  
 - Lane keeping test on AggieAuto platform -Lincoln MKZ hybrid:
   - <a target="_blank" href="https://drive.google.com/file/d/1yPO2pz2oI7kPlyG4CvHWLIBVwqPX6npS/view?usp=share_link"> 10 mph </a>
