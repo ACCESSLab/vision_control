@@ -42,9 +42,7 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
               └─ ...
 ```
 For each image in the ```images``` folder, there is a corrosponding label in the ```labels``` folder with the same name.
-The labels are created using [labelme](https://github.com/wkentaro/labelme.git) app.
-##### Label content
-  The label contains ego-lane boundaries as ```left``` and ```right```.
+The labels are created using [labelme](https://github.com/wkentaro/labelme.git) app. The label contains the ego-lane boundaries as ```left``` and ```right```.
 
 ---
 ### Camera
