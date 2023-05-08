@@ -26,10 +26,10 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
   - <a target="_blank" href="https://drive.google.com/file/d/1JIadkfWS8ncQwKYNGoMUn8n9EcTvHX1x/view?usp=share_link"> 17-19 mph </a>
   - <a target="_blank" href="https://drive.google.com/file/d/1WQVJX6qEgZQv_oPNKTs0gPPxK81JA_Bo/view?usp=share_link"> 18 mph </a>
   - <a target="_blank" href="https://drive.google.com/file/d/1Dovhesq5M89a4QSf4PgNxD97uBW9ixFA/view?usp=share_link"> 20-22 mph </a>
-- 
+   
  ----
 ### Nighttime driving dataset
-  <a target="_blank" href="https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link">Image and label data.</a>
+  <a target="_blank" href="https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link">Image and label data.</a> Download the zip file (310MB) <a target="_blank" href="https://drive.google.com/file/d/1RlD-PxhQoiQIUhEnCZxNpa-bt1n2_2oK/view?usp=share_link"> here </a>
 - Folder structure
 ```
  nighttime_driving_data
@@ -44,15 +44,15 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
 ```
 For each image in the ```images``` folder, there is a corrosponding label in the ```labels``` folder with the same name.
 The labels are created using [labelme](https://github.com/wkentaro/labelme.git) app.
-#### Label content
-  The label is for ```left``` and ```right``` lane boudaries as shown below.
+##### Label content
+  The label contains ego-lane boundaries as ```left``` and ```right```.
 
 ---
 ### Camera
-
-<!-- ### Camera calibration
+The camera used in our experimental setup is <a target="_blank" href="https://www.leopardimaging.com/product-category/usb30-cameras/"> Leopard USB3.0 box camera </a> with following intrinsic parameters determined using the technique presented in <a target="_blank" href="https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html">OpenCV</a>.
+<!-- ### Camera calibration -->
 Intrinsic calibration matrices are the following. 
-* The images in the dataset are already corrected.
+* The images in the dataset are already undistorted/corrected.
 ```
 ## Camera Matrix
 cam_mtx = np.array([[2.07260223e+03, 0.00000000e+00, 8.25522002e+02],
@@ -70,6 +70,4 @@ refined_cam_mtx = np.array([[1.75234119e+03, 0.00000000e+00, 7.96353770e+02],
                             [0.00000000e+00, 0.00000000e+00, 1.00000000e+00]
                           ])
 ```
- -->
-### Evaluation script
-### 
+---
