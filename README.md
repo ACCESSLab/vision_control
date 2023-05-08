@@ -6,16 +6,16 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
 ----
 ### Experimental Results
 - Test vehicle: Lincoln MKZ hybrid
-  <img src="/images/lincoln_mkz.jpg" width="400" /> 
+ <img src="/images/lincoln_mkz.jpg" width="400" /> 
 
 - Lane Detection result on Caltech dataset
-  <img src="/images/caltech_output.png" width="400" /> 
+ <img src="/images/caltech_output.png" width="400" /> 
 
 - <a target="_blank" href="https://drive.google.com/file/d/1ngpegivYYYi-MNU1f1ENg10IcjexBM1c/view?usp=share_link"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
 
 - MPC Path tracking for a 525 meter test road where the maximum lateral error is 0.2m.
-  <img src="/images/path_tracking.png" width="400" />
-  <img src="/images/pos_error.png" width="400" /> 
+ <img src="/images/path_tracking.png" width="400" />
+ <img src="/images/pos_error.png" width="400" /> 
 - MPC control signals (Steering and Acceleration)
  <img src="/images/actuator_output.png" width="400" /> 
  
