@@ -28,7 +28,7 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
    
  ----
 ### Nighttime driving dataset
-  <a target="_blank" href="https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link">Image and label data.</a> Download the zip file (310MB) <a target="_blank" href="https://drive.google.com/file/d/1RlD-PxhQoiQIUhEnCZxNpa-bt1n2_2oK/view?usp=share_link"> here </a>
+  Nighttime driving test data (201 images and labels) collected in Greensboro, NC  is available <a target="_blank" href="https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link"> here </a>  or <a target="_blank" href="https://drive.google.com/file/d/1RlD-PxhQoiQIUhEnCZxNpa-bt1n2_2oK/view?usp=share_link"> a zip file (310MB) </a> for download.
 - Folder structure
 ```
  nighttime_driving_data
