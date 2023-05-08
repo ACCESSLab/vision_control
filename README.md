@@ -19,7 +19,6 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
 - MPC control signals (Steering and Acceleration)
  <img src="/images/actuator_output.png" width="400" /> 
  
- 
 - Lane keeping test on AggieAuto platform -Lincoln MKZ hybrid:
   - <a target="_blank" href="https://drive.google.com/file/d/1yPO2pz2oI7kPlyG4CvHWLIBVwqPX6npS/view?usp=share_link"> 10 mph </a>
   - <a target="_blank" href="https://drive.google.com/file/d/1JLlLjxpWWoN2B_klsbc9Sdpz_Ov8sHTV/view?usp=share_link"> 15 mph </a>
@@ -49,7 +48,7 @@ The labels are created using [labelme](https://github.com/wkentaro/labelme.git) 
 
 ---
 ### Camera
-The camera used in our experimental setup is <a target="_blank" href="https://www.leopardimaging.com/product-category/usb30-cameras/"> Leopard USB3.0 box camera </a> with following intrinsic parameters determined using the technique presented in <a target="_blank" href="https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html">OpenCV</a>.
+The camera used in our experiment is <a target="_blank" href="https://www.leopardimaging.com/product-category/usb30-cameras/"> Leopard USB3.0 box camera </a> with following intrinsic parameters determined using the technique presented in <a target="_blank" href="https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html">OpenCV</a>.
 <!-- ### Camera calibration -->
 Intrinsic calibration matrices are the following. 
 * The images in the dataset are already undistorted/corrected.
