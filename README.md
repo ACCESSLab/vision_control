@@ -11,7 +11,7 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
 - Lane Detection result on Caltech dataset
  <img src="/images/caltech_output.png" width="400" /> 
 
-- <a target="_blank" href="https://drive.google.com/file/d/1ngpegivYYYi-MNU1f1ENg10IcjexBM1c/view?usp=share_link"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
+- <a target="_blank" href="https://youtu.be/9Dsy42nBig4"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
 
 - MPC Path tracking for a 525 meter test road where the maximum lateral error is 0.2m.
  <img src="/images/path_tracking.png" width="400" />
@@ -20,12 +20,13 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
  <img src="/images/actuator_output.png" width="400" /> 
  
 - Lane keeping test on AggieAuto platform -Lincoln MKZ hybrid:
-  - <a target="_blank" href="https://drive.google.com/file/d/1yPO2pz2oI7kPlyG4CvHWLIBVwqPX6npS/view?usp=share_link"> 10 mph </a>
-  - <a target="_blank" href="https://drive.google.com/file/d/1JLlLjxpWWoN2B_klsbc9Sdpz_Ov8sHTV/view?usp=share_link"> 15 mph </a>
-  - <a target="_blank" href="https://drive.google.com/file/d/1JIadkfWS8ncQwKYNGoMUn8n9EcTvHX1x/view?usp=share_link"> 17-19 mph </a>
-  - <a target="_blank" href="https://drive.google.com/file/d/1WQVJX6qEgZQv_oPNKTs0gPPxK81JA_Bo/view?usp=share_link"> 18 mph </a>
-  - <a target="_blank" href="https://drive.google.com/file/d/1Dovhesq5M89a4QSf4PgNxD97uBW9ixFA/view?usp=share_link"> 20-22 mph </a>
-  > 🔴 🆕 <a target="_blank" href="https://drive.google.com/file/d/1Wh7P7apqmiAdMuDnJnIqj02TK7h6zDGb/view?usp=drive_link"> Two-lane and curved road </a>
+  - <a target="_blank" href="https://youtu.be/7cWu6n7dfQ8"> 10 mph </a>
+  - <a target="_blank" href="https://youtu.be/c8_7OpeAi9U"> 15 mph </a>
+  - <a target="_blank" href="https://youtu.be/UpFUdHwB-R8"> 17-19 mph </a>
+  - <a target="_blank" href="https://youtu.be/GaBgmhyiM1A"> 18 mph </a>
+  - <a target="_blank" href="https://youtu.be/IQhrgPzRKwc"> 20-22 mph </a>
+  > 🔴 🆕 <a target="_blank" href="https://youtu.be/Dh29i2lnDhg"> Two-lane and curved road </a>
+  
  ----
 ### Nighttime driving dataset
   Nighttime driving test data (201 images and labels) collected in Greensboro, NC  is  <a target="_blank" href="https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link"> available here </a>. Zip file (size 310MB) <a target="_blank" href="https://drive.google.com/file/d/1RlD-PxhQoiQIUhEnCZxNpa-bt1n2_2oK/view?usp=share_link"> for download </a> .
