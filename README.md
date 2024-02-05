@@ -1,7 +1,7 @@
 ### Vision-based Perception and Control for Lane Keeping of Autonomous Vehicles
  ----
 ### Abstract
-This paper proposes a vision-based control method for autonomous vehicle lane keeping. This approach aims to provide a reliable alternative solution for localization and path planning-related issues in environments where GPS is unavailable or unreliable, such as in tunnels and urban areas. The proposed method consists of a robust lane detection algorithm to generate a reference path of the vehicle and a model predictive controller (MPC) for tracking the reference path. The lane detector extracts lane markings from image frames to determine ego-lane boundaries, from which the lane center is calculated in the vehicle’s coordinate frame. The MPC uses a kinematic vehicle model to generate the lateral and longitudinal control values necessary for smoothly tracking the reference path. The proposed technique has  been implemented and tested on a Lincoln MKZ hybrid vehicle equipped with a computer powered by Intel’s quad-core Xeon processors. Experimental results demonstrate that the proposed vision-based lane detection method performs well under various challenging road conditions, such as shadows, road texture variations, interference from other road signs, and missing lane boundaries.  
+This paper proposes a vision-based control method for autonomous vehicle lane-keeping. This approach aims to provide a reliable alternative solution for localization and path planning-related issues in environments where GPS is unavailable or unreliable, such as in tunnels and urban areas. The proposed method consists of a robust lane detection algorithm to generate a reference path of the vehicle and a model predictive controller (MPC) for tracking the reference path. The lane detector extracts lane markings from image frames to determine ego-lane boundaries, from which the lane center is calculated in the vehicle’s coordinate frame. The MPC uses a kinematic vehicle model to generate the lateral and longitudinal control values necessary for smoothly tracking the reference path. The proposed technique has  been implemented and tested on a Lincoln MKZ hybrid vehicle equipped with a computer powered by Intel’s quad-core Xeon processors. Experimental results demonstrate that the proposed vision-based lane detection method performs well under various challenging road conditions, such as shadows, road texture variations, interference from other road signs, and missing lane boundaries.  
  
 ----
 ### Experimental Results
@@ -13,20 +13,20 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
 
 - <a target="_blank" href="https://youtu.be/9Dsy42nBig4"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
 
-- MPC Path tracking for a 525 meter test road where the maximum lateral error is 0.2m.
+- MPC Path tracking for a 525-meter test road where the maximum lateral error is 0.2m.
  <img src="/images/path_tracking.png" width="400" />
  <img src="/images/pos_error.png" width="400" /> 
 - MPC control signals (Steering and Acceleration)
  <img src="/images/actuator_output.png" width="400" /> 
  
-- Lane keeping test on AggieAuto platform -Lincoln MKZ hybrid:
+- Lane-keeping test on AggieAuto platform -Lincoln MKZ hybrid:
   - <a target="_blank" href="https://youtu.be/7cWu6n7dfQ8"> 10 mph </a>
   - <a target="_blank" href="https://youtu.be/c8_7OpeAi9U"> 15 mph </a>
   - <a target="_blank" href="https://youtu.be/UpFUdHwB-R8"> 17-19 mph </a>
   - <a target="_blank" href="https://youtu.be/GaBgmhyiM1A"> 18 mph </a>
   - <a target="_blank" href="https://youtu.be/IQhrgPzRKwc"> 20-22 mph </a>
   - <a target="_blank" href="https://youtu.be/Dh29i2lnDhg"> Two-lane and curved road </a>
-  > 🔴 🆕 <a target="_blank" href="https://youtu.be/Dh29i2lnDhg"> 30-40 mph on public road </a>
+  > 🔴 🆕 <a target="_blank" href="https://youtu.be/bgg8-TwXo24"> 30-40 mph on public road </a> 
   
  ----
 ### Nighttime driving dataset
@@ -43,7 +43,7 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
               └─img1.json
               └─ ...
 ```
-For each image in the ```images``` folder, there is a corrosponding label in the ```labels``` folder with the same name.
+For each image in the ```images``` folder, there is a corresponding label in the ```labels``` folder with the same name.
 The labels are created using [labelme](https://github.com/wkentaro/labelme.git) app. The label contains the ego-lane boundaries as ```left``` and ```right```.
 
 ---
