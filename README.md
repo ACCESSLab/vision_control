@@ -25,7 +25,8 @@ This paper proposes a vision-based control method for autonomous vehicle lane ke
   - <a target="_blank" href="https://youtu.be/UpFUdHwB-R8"> 17-19 mph </a>
   - <a target="_blank" href="https://youtu.be/GaBgmhyiM1A"> 18 mph </a>
   - <a target="_blank" href="https://youtu.be/IQhrgPzRKwc"> 20-22 mph </a>
-  > 🔴 🆕 <a target="_blank" href="https://youtu.be/Dh29i2lnDhg"> Two-lane and curved road </a>
+  - <a target="_blank" href="https://youtu.be/Dh29i2lnDhg"> Two-lane and curved road </a>
+  > 🔴 🆕 <a target="_blank" href="https://youtu.be/Dh29i2lnDhg"> 30-40 mph on public road </a>
   
  ----
 ### Nighttime driving dataset
