@@ -19,7 +19,7 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
 - MPC control signals (Steering and Acceleration)
  <img src="/images/actuator_output.png" width="400" /> 
  
-- Lane-keeping test on AggieAuto platform -Lincoln MKZ hybrid:
+- Lane-keeping test experimental results using AggieAuto AV platform - Lincoln MKZ hybrid:
   - <a target="_blank" href="https://youtu.be/7cWu6n7dfQ8"> 10 mph </a>
   - <a target="_blank" href="https://youtu.be/c8_7OpeAi9U"> 15 mph </a>
   - <a target="_blank" href="https://youtu.be/UpFUdHwB-R8"> 17-19 mph </a>
