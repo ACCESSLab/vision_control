@@ -28,7 +28,6 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
   - <a target="_blank" href="https://youtu.be/Dh29i2lnDhg"> Two-lane and curved road </a>
   > 🔴 🆕 <a target="_blank" href="https://youtu.be/bgg8-TwXo24"> 30-40 mph on public road </a>
   
-  > 🆕 (in progress)<a target="_blank" href="https://youtu.be/psdPiKH1nE0?si=UX4KEbXdQsy-nhCT"> Road Segmentation and Object Detection </a>
   
  ----
 ### Nighttime driving dataset
