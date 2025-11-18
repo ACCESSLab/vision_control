@@ -12,7 +12,7 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
 - Lane Detection result on Caltech dataset
  <img src="/images/caltech_output.png" width="400" /> 
 
-- <a target="_blank" href="https://youtu.be/9Dsy42nBig4"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
+- <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EX0DuKy4VE1Onfs8k-pG_DcBieQF58wRZjp4fAFzqi67sw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=paaswc"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
 
 - MPC Path tracking for a 525-meter test road where the maximum lateral error is 0.2m.
  <img src="/images/path_tracking.png" width="400" />
@@ -21,13 +21,13 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
  <img src="/images/actuator_output.png" width="400" /> 
  
 - Lane-keeping test experimental results using AggieAuto AV platform - Lincoln MKZ hybrid:
-  - <a target="_blank" href="https://youtu.be/7cWu6n7dfQ8"> 10 mph </a>
-  - <a target="_blank" href="https://youtu.be/c8_7OpeAi9U"> 15 mph </a>
-  - <a target="_blank" href="https://youtu.be/UpFUdHwB-R8"> 17-19 mph </a>
-  - <a target="_blank" href="https://youtu.be/GaBgmhyiM1A"> 18 mph </a>
-  - <a target="_blank" href="https://youtu.be/IQhrgPzRKwc"> 20-22 mph </a>
-  - <a target="_blank" href="https://youtu.be/Dh29i2lnDhg"> Two-lane and curved road </a>
-  > 🔴 🆕 <a target="_blank" href="https://youtu.be/bgg8-TwXo24"> 30-40 mph on public road </a>
+  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EVCH7mXu8NpDq2HZ6l6wALcBloK35zonHx-sL4C2X7PZew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Bts8TJ"> 10 mph </a>
+  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EX3XK51O2nhDiCl6OOAUZukBQAlRxKSOfCiZlwKctnK8Xg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlrCkS"> 15 mph </a>
+  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EWH95l0YLs1BucIYfkDERnsBrwVqz2XK6DvFHveTf3o-hA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QKMbk3"> 17-19 mph </a>
+  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EakFNqWY5FdOuZFKbFzlJUoBHhqg5Q2Mzoj1GRgxUWD30A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ttBAPX"> 18 mph </a>
+  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EXnHaMhic1NNqIyuezvz5LUB2bXv1EYLKHlJsklQeyxqng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4dHOs"> 20-22 mph </a>
+  - <a target="_blank" href=""> Two-lane and curved road </a>
+  > 🔴 🆕 <a target="_blank" href=""> 30-40 mph on public road </a>
   
   
  ----
@@ -72,3 +72,4 @@ refined_cam_mtx = np.array([[1.75234119e+03, 0.00000000e+00, 7.96353770e+02],
                           ])
 ```
 ---
+
