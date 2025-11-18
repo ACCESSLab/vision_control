@@ -26,8 +26,8 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
   - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EWH95l0YLs1BucIYfkDERnsBrwVqz2XK6DvFHveTf3o-hA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QKMbk3"> 17-19 mph </a>
   - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EakFNqWY5FdOuZFKbFzlJUoBHhqg5Q2Mzoj1GRgxUWD30A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ttBAPX"> 18 mph </a>
   - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EXnHaMhic1NNqIyuezvz5LUB2bXv1EYLKHlJsklQeyxqng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4dHOs"> 20-22 mph </a>
-  - <a target="_blank" href=""> Two-lane and curved road </a>
-  > 🔴 🆕 <a target="_blank" href=""> 30-40 mph on public road </a>
+  - <a target="_blank" href="">-</a> Two-lane and curved road 
+  > 🔴 🆕 <a target="_blank" href="">-</a> 30-40 mph on public road 
   
   
  ----
@@ -72,4 +72,5 @@ refined_cam_mtx = np.array([[1.75234119e+03, 0.00000000e+00, 7.96353770e+02],
                           ])
 ```
 ---
+
 
