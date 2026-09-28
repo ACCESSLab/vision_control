@@ -27,7 +27,7 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
   - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EakFNqWY5FdOuZFKbFzlJUoBHhqg5Q2Mzoj1GRgxUWD30A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ttBAPX"> 18 mph </a>
   - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EXnHaMhic1NNqIyuezvz5LUB2bXv1EYLKHlJsklQeyxqng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4dHOs"> 20-22 mph </a>
   - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EVr1QLFneidEv2WvfzKNGFUBLG6saDB5kLrhTKjvK8tPUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oNcsTE"> Two-lane and curved road </a>
-  > 🔴 🆕 <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EaFkzw66SeFKoBka_9tyECUBRdX_V-5KsPEHriYjFzOyFA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mKgYvZ"> 30-40 mph on public road </a>
+  > 🔴 🆕 <a target="_blank" href="https://youtu.be/WELfQEpWJEc?si=io5sxL5SEgi2qtKh"> 30-40 mph on public road </a>
   
   
  ----
