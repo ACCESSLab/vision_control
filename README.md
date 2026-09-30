@@ -12,8 +12,6 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
 - Lane Detection result on Caltech dataset
  <img src="/images/caltech_output.png" width="400" /> 
 
-- <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EX0DuKy4VE1Onfs8k-pG_DcBieQF58wRZjp4fAFzqi67sw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=paaswc"> Lane detection result</a> on a test video from [Udacity](https://github.com/udacity/CarND-Advanced-Lane-Lines). 
-
 - MPC Path tracking for a 525-meter test road where the maximum lateral error is 0.2m.
  <img src="/images/path_tracking.png" width="400" />
  <img src="/images/pos_error.png" width="400" /> 
@@ -21,14 +19,11 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
  <img src="/images/actuator_output.png" width="400" /> 
  
 - Lane-keeping test experimental results using AggieAuto AV platform - Lincoln MKZ hybrid:
-  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EVCH7mXu8NpDq2HZ6l6wALcBloK35zonHx-sL4C2X7PZew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Bts8TJ"> 10 mph </a>
-  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EX3XK51O2nhDiCl6OOAUZukBQAlRxKSOfCiZlwKctnK8Xg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nlrCkS"> 15 mph </a>
-  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EWH95l0YLs1BucIYfkDERnsBrwVqz2XK6DvFHveTf3o-hA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QKMbk3"> 17-19 mph </a>
-  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EakFNqWY5FdOuZFKbFzlJUoBHhqg5Q2Mzoj1GRgxUWD30A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ttBAPX"> 18 mph </a>
-  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EXnHaMhic1NNqIyuezvz5LUB2bXv1EYLKHlJsklQeyxqng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=J4dHOs"> 20-22 mph </a>
-  - <a target="_blank" href="https://ncaandt-my.sharepoint.com/:v:/g/personal/tagetahun_ncat_edu/EVr1QLFneidEv2WvfzKNGFUBLG6saDB5kLrhTKjvK8tPUA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oNcsTE"> Two-lane and curved road </a>
-  > 🔴 🆕 <a target="_blank" href="https://youtu.be/WELfQEpWJEc?si=io5sxL5SEgi2qtKh"> 30-40 mph on public road </a>
-  
+  - <a target="_blank" href="https://youtu.be/834FkeyPn50"> 10 mph </a>
+  - <a target="_blank" href="https://youtu.be/8wNal90Jz5Y"> 17-19 mph </a>
+  - <a target="_blank" href="https://youtu.be/P8f7fRq5gt8"> 20-22 mph </a>
+  - <a target="_blank" href="https://youtu.be/cW0o2JX0zUU"> Two-lane and curved road </a>
+  - <a target="_blank" href="https://youtu.be/WELfQEpWJEc?si=io5sxL5SEgi2qtKh"> 30-40 mph on public road </a>
   
  ----
 ### Nighttime driving dataset
@@ -50,7 +45,7 @@ The labels are created using [labelme](https://github.com/wkentaro/labelme.git) 
 
 ---
 ### Camera
-The camera used in our experiment is <a target="_blank" href="https://www.leopardimaging.com/product-category/usb30-cameras/"> Leopard USB3.0 box camera </a> with following intrinsic parameters determined using the technique presented in <a target="_blank" href="https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html">OpenCV</a>.
+The camera used in our experiment is <a target="_blank" href="https://www.leopardimaging.com/product-category/usb30-cameras/"> Leopard USB3.0 box camera </a> with the following intrinsic parameters determined using the technique presented in <a target="_blank" href="https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html">OpenCV</a>.
 <!-- ### Camera calibration -->
 Intrinsic calibration matrices are the following. 
 * The images in the dataset are already undistorted/corrected.
