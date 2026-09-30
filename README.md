@@ -27,7 +27,7 @@ This paper proposes a vision-based control method for autonomous vehicle lane-ke
   
  ----
 ### Nighttime driving dataset
-  Nighttime driving test data (201 images and labels) collected in Greensboro, NC  is  <a target="_blank" href="https://drive.google.com/drive/folders/1QKEVOJP5nu5cNQ6HzNiZvBkv_AMhHk1i?usp=share_link"> available here </a>. Zip file (size 310MB) <a target="_blank" href="https://drive.google.com/file/d/1RlD-PxhQoiQIUhEnCZxNpa-bt1n2_2oK/view?usp=share_link"> for download </a> .
+  Nighttime driving test data (201 images and labels) collected in Greensboro, NC  is  <a target="_blank" href="https://drive.google.com/drive/folders/1_lgOapqE9pCGMLeOuGcNV-FYEGEkyayL?usp=drive_link"> available here </a>.
 - Folder structure
 ```
  nighttime_driving_data
@@ -68,5 +68,18 @@ refined_cam_mtx = np.array([[1.75234119e+03, 0.00000000e+00, 7.96353770e+02],
 ```
 ---
 
+### Citation
+```
+@ARTICLE{10480914,
+  author={Getahun, Tesfamichael and Karimoddini, Ali},
+  journal={IEEE Transactions on Intelligent Transportation Systems}, 
+  title={An Integrated Vision-Based Perception and Control for Lane Keeping of Autonomous Vehicles}, 
+  year={2024},
+  volume={25},
+  number={8},
+  pages={9001-9015},
+  keywords={Lane detection;model predictive control (MPC);visual perception;lane keeping;autonomous vehicles},
+  doi={10.1109/TITS.2024.3376516}}
+```
 
 
