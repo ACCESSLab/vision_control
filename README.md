@@ -69,17 +69,18 @@ refined_cam_mtx = np.array([[1.75234119e+03, 0.00000000e+00, 7.96353770e+02],
 ---
 
 ### Citation
-```
+```bibtex
 @ARTICLE{10480914,
-  author={Getahun, Tesfamichael and Karimoddini, Ali},
-  journal={IEEE Transactions on Intelligent Transportation Systems}, 
-  title={An Integrated Vision-Based Perception and Control for Lane Keeping of Autonomous Vehicles}, 
-  year={2024},
-  volume={25},
-  number={8},
-  pages={9001-9015},
-  keywords={Lane detection;model predictive control (MPC);visual perception;lane keeping;autonomous vehicles},
-  doi={10.1109/TITS.2024.3376516}}
+  author   ={Getahun, Tesfamichael and Karimoddini, Ali},
+  journal  ={IEEE Transactions on Intelligent Transportation Systems}, 
+  title    ={An Integrated Vision-Based Perception and Control for Lane Keeping of Autonomous Vehicles}, 
+  year     ={2024},
+  volume   ={25},
+  number   ={8},
+  pages    ={9001-9015},
+  keywords ={Lane detection;model predictive control (MPC);visual perception;lane keeping;autonomous vehicles},
+  doi      ={10.1109/TITS.2024.3376516}
+}
 ```
 
 
